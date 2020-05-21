@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.amazonin.tests.LandingPageTest">
+      <class name="com.qa.amazonin.tests.CreateNewAccountPageTest">
         <methods>
-          <include name="setUpLandingPageTest"/>
-          <include name="verifyTitleTest"/>
-          <include name="tearDownLandingPageTest"/>
+          <include name="tearDownCreateNewAccountPageTest"/>
+          <include name="setUpCreateNewAccountPageTest"/>
+          <include name="verifyNewAccountCreatedTest"/>
         </methods>
-      </class> <!-- com.qa.amazonin.tests.LandingPageTest -->
+      </class> <!-- com.qa.amazonin.tests.CreateNewAccountPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

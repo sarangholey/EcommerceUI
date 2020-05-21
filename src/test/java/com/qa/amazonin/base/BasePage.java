@@ -12,7 +12,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.opera.OperaDriver;
 
 public class BasePage {
@@ -21,17 +25,17 @@ public class BasePage {
 	Properties prop;
 	
 	
-	public WebDriver init_driver()
+	public WebDriver init_driver(String browserName)
 	{
-		String browserName = null;
-		if (System.getProperty("browser") == null) {
-			browserName = prop.getProperty("browser");
-		}
+		//String browserName = null;
+		
+		//browserName = prop.getProperty("browser");
 		
 		System.out.println("Running on ----> " + browserName + " browser");
 		
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
+			System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 			driver = new ChromeDriver();
 		}
 		else if(browserName.equalsIgnoreCase("firefox"))

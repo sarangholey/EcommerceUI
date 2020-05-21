@@ -25,6 +25,7 @@ public class LandingPage extends BasePage {
 	// Locators
 	private By amazonLogo = By.xpath("//div[@id='nav-logo']");
 
+	// Mathods
 	public String verifyTitle() {
 		return elementActions.doGetPageTitle(AppConstants.LANDING_PAGE_TITLE);
 	}
