@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48752" started-at="2020-05-21T08:54:48Z" finished-at="2020-05-21T08:55:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48752" started-at="2020-05-21T08:54:48Z" finished-at="2020-05-21T08:55:37Z">
+      <class name="com.qa.amazonin.tests.LandingPageTest">
+        <test-method status="PASS" signature="setUpLandingPageTest()[pri:0, instance:com.qa.amazonin.tests.LandingPageTest@10db82ae]" name="setUpLandingPageTest" is-config="true" duration-ms="22961" started-at="2020-05-21T08:54:48Z" finished-at="2020-05-21T08:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLandingPageTest -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:0, instance:com.qa.amazonin.tests.LandingPageTest@10db82ae]" name="verifyLogoTest" duration-ms="89" started-at="2020-05-21T08:55:11Z" finished-at="2020-05-21T08:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method status="PASS" signature="tearDownLandingPageTest()[pri:0, instance:com.qa.amazonin.tests.LandingPageTest@10db82ae]" name="tearDownLandingPageTest" is-config="true" duration-ms="638" started-at="2020-05-21T08:55:11Z" finished-at="2020-05-21T08:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownLandingPageTest -->
+        <test-method status="PASS" signature="setUpLandingPageTest()[pri:0, instance:com.qa.amazonin.tests.LandingPageTest@10db82ae]" name="setUpLandingPageTest" is-config="true" duration-ms="24237" started-at="2020-05-21T08:55:12Z" finished-at="2020-05-21T08:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLandingPageTest -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:0, instance:com.qa.amazonin.tests.LandingPageTest@10db82ae]" name="verifyTitleTest" duration-ms="43" started-at="2020-05-21T08:55:36Z" finished-at="2020-05-21T08:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="tearDownLandingPageTest()[pri:0, instance:com.qa.amazonin.tests.LandingPageTest@10db82ae]" name="tearDownLandingPageTest" is-config="true" duration-ms="657" started-at="2020-05-21T08:55:36Z" finished-at="2020-05-21T08:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownLandingPageTest -->
+      </class> <!-- com.qa.amazonin.tests.LandingPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
